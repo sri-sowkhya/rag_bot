@@ -5,7 +5,7 @@ import google.api_core.exceptions
 def generate_response(prompt, api_key):
     """Generates a response from the Gemini API."""
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-flash-2.0')
+    model = genai.GenerativeModel('gemini-2.0-Flash')
     try:
         response = model.generate_content(prompt)
         return response.text
