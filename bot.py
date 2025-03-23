@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-import faissgenai
+import faiss
 import google.generativeai as genai
 import os
 df = pd.read_csv("job_recommendation_dataset.csv")
