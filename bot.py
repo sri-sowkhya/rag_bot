@@ -5,7 +5,8 @@ import faiss
 import google.generativeai as genai
 
 # Streamlit Secrets (Recommended)
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+genai.configure(api_key=st.secrets["AIzaSyDE8ewEM5liBYkooT5kKmIis2ZwQ4pHMOU"])
+
 
 st.title("CSV RAG System")
 
